@@ -1,0 +1,13 @@
+{
+  "name": "servicebus-simulator",
+  "version": "1.0.0",
+  "description": "Simulator to send messages to Azure Service Bus using managed identity and sessions",
+  "main": "sendMessages.js",
+  "scripts": {
+    "start": "node sendMessages.js"
+  },
+  "dependencies": {
+    "@azure/identity": "^4.0.0",
+    "@azure/service-bus": "^7.0.0"
+  }
+}
